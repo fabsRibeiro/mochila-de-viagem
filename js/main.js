@@ -9,6 +9,8 @@ itens.forEach( (elemento) => {
 form.addEventListener("submit", (evento) => {
     evento.preventDefault()
 
+    console.log(evento)
+
     const nome = evento.target.elements['nome']
     const quantidade = evento.target.elements['quantidade']
 
